@@ -11,6 +11,9 @@ body {
     margin: 0 auto;
 }
 
-
+.completed {
+    color: grey;
+    text-decoration: line-through;
+}
 
 
