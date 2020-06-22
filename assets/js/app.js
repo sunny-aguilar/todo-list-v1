@@ -25,9 +25,13 @@ $(function() {
 
     // this adds a new item to the list when a user hits the enter key
     $('input[type="text"]').keypress(function(e) {
+        // if user hits the enter keyu
         if (e.which === 13) {
-            console.log($(this).val());
-            $(this).val;
+            // grab the text in the input field
+            let todoText = $(this).val;
+
+            // create a new li and add to ul
+            $('ul').append('<li></li>')
         }
     });
 
