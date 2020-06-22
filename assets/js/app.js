@@ -15,7 +15,7 @@ $(function() {
 
 
     // click on delete button
-    $('span').click(function(e){
+    $('ul').on('click', 'span', function(e){
         $(this).parent().fadeOut(500, function() {
             $(this).remove();
         });
