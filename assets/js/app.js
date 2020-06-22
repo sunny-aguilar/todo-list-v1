@@ -1,8 +1,8 @@
 // Todo web app
+// app functionality checklist
 
 $(function() {
-    // app functionality checklist
-    /
+
     $('li').click(function() {
 
     })
