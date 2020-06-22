@@ -10,20 +10,6 @@ $(function() {
         grey and cross them out. It also undoes these actions.
     */
     $('li').click(function() {
-        // // turn black if gray
-        // if ($(this).css('color') === 'rgb(128, 128, 128)') {
-        //     $(this).css({
-        //         'color': 'black',
-        //         'text-decoration': 'none'
-        //     });
-        // }
-        // // turn grey if black
-        // else {
-        //     $(this).css({
-        //         'color': 'gray',
-        //         'text-decoration': 'line-through'
-        //     });
-        // }
         $(this).toggleClass('completed');
     });
 
