@@ -8,12 +8,22 @@ body {
 #container {
     background: #e2f1f8;
     width: 400px;
-    margin: 0 auto;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .completed {
     color: grey;
     text-decoration: line-through;
 }
+
+h1 {
+    background: #ff867c;
+    color: white;
+}
+
+
+
+
 
 
