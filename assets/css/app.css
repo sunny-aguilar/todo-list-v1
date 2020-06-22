@@ -37,6 +37,8 @@ ul {
 
 li {
     background: white;
+    height: 40px;
+    line-height: 40px;
 }
 
 li:nth-child(2n) {
