@@ -39,7 +39,9 @@ $(function() {
     });
 
 
-
+    $('h1').on('click', 'i', function() {
+        $('input[type="text"]').fadeToggle();
+    });
 
 
 

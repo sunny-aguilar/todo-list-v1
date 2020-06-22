@@ -52,6 +52,7 @@ input {
     background-color: #f5f5f5;
     color: #373737;
     width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0);
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
     border: none;
@@ -61,7 +62,7 @@ input {
 
 input:focus {
     background: white;
-    border: 3px solid #757575;
+    border: 3px solid #f5f5f5;
     outline: none;
 }
 
@@ -70,14 +71,19 @@ input:focus {
 }
 
 span {
-    background: #ff867c;
+    background: #b61827;
     height: 40px;
     margin-right: 20px;
     text-align: center;
     color: white;
-    width: 40px;
+    width: 0px;
     display: inline-block;
+    opacity: 0;
+    transition: 0.2s;
 }
 
-
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
 
