@@ -31,7 +31,7 @@ $(function() {
             let todoText = $(this).val;
 
             // create a new li and add to ul
-            $('ul').append('<li></li>')
+            $('ul').append('<li>' + todoText + '</li>')
         }
     });
 
