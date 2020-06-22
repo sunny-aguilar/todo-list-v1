@@ -65,11 +65,19 @@ input:focus {
     outline: none;
 }
 
-.fas {
+.fa-plus {
     float: right;
 }
 
-
+span {
+    background: #ff867c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 40px;
+    display: inline-block;
+}
 
 
 

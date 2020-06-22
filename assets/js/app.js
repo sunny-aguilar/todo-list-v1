@@ -34,7 +34,7 @@ $(function() {
             $(this).val('');
 
             // create a new li and add to ul
-            $('ul').append('<li><span>XX</span> ' + todoText + '</li>')
+            $('ul').append('<li><span><i class="far fa-trash-alt"></i></span> ' + todoText + '</li>')
         }
     });
 
