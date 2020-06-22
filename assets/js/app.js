@@ -14,7 +14,10 @@ $(function() {
     });
 
 
-
+    // click on delete button
+    $('span').click(function(){
+        
+    });
 
 
 
