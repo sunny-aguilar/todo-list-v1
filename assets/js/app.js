@@ -26,7 +26,8 @@ $(function() {
     // this adds a new item to the list when a user hits the enter key
     $('input[type="text"]').keypress(function(e) {
         if (e.which === 13) {
-            console.log("enter hit")
+            console.log($(this).val());
+            $(this).val;
         }
     });
 
