@@ -31,7 +31,7 @@ $(function() {
             let todoText = $(this).val();
 
             // clear input
-            $(this).val() == '';
+            $(this).val('');
 
             // create a new li and add to ul
             $('ul').append('<li><span>XX</span> ' + todoText + '</li>')
