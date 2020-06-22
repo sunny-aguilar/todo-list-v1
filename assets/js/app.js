@@ -16,11 +16,19 @@ $(function() {
 
     // click on delete button
     $('span').click(function(e){
-        $(this).parent().remove();
+        $(this).parent().fadeOut(500, function() {
+            $(this).remove();
+        });
         e.stopPropagation();
     });
 
 
+    // this adds a new item to the list when a user hits the enter key
+    $('input[type="text"]').keypress(function(e) {
+        if (e.which === 13) {
+            console.log("enter hit")
+        }
+    });
 
 
 
