@@ -9,7 +9,7 @@ $(function() {
         This selects the li elements on the list to make them
         grey and cross them out. It also undoes these actions.
     */
-    $('li').click(function() {
+    $('ul').on('click', 'li', function() {
         $(this).toggleClass('completed');
     });
 
