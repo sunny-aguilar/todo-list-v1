@@ -28,10 +28,13 @@ $(function() {
         // if user hits the enter keyu
         if (e.which === 13) {
             // grab the text in the input field
-            let todoText = $(this).val;
+            let todoText = $(this).val();
+
+            // clear input
+            $(this).val() == '';
 
             // create a new li and add to ul
-            $('ul').append('<li>' + todoText + '</li>')
+            $('ul').append('<li><span>XX</span> ' + todoText + '</li>')
         }
     });
 
