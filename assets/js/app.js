@@ -15,8 +15,9 @@ $(function() {
 
 
     // click on delete button
-    $('span').click(function(){
-        alert('Hello');
+    $('span').click(function(e){
+        $(this).parent().remove();
+        e.stopPropagation();
     });
 
 
